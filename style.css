@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8% ;
+
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 50px;
+}
+.gallery img{
+    width: 100%;
+    
+
+
+}
+.gallery .image1 .h1{
+    text-align: center;
+    
+    
+}
+.gallery .image1 a{
+    color: gray;
+    text-decoration: none;
+}
+.gallery .image2 a{
+    color: yellow;
+    text-decoration: none;
+    
+}
+.gallery .image3 a{
+    color: rgb(89, 118, 180);
+    text-decoration: none;
+    
+}
+.gallery .ceramic a{
+    color: rgba(170, 132, 5, 0.76);
+    text-decoration: none;
+    
+}
+.gallery .image6 a{
+    color: green;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.gallery .image10 a{
+    color: skyblue;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.gallery .image11 a{
+    color: coral;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.gallery .image12 a{
+    color: orangered;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
